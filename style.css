@@ -1,0 +1,106 @@
+8/*,
+*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+header{
+    background-color: rgba(00, 100, 255, 0.9);
+    margin:0em 4em;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header img{
+    height: 50px
+}
+nav ul {
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin:0px 1em
+}
+ p {
+    font-size: 16px;
+    font-family: Arial;
+    text-align: left;
+    text-align: justify;
+ }
+ nav ul li a {
+    text-decoration: none; 
+    color: #d6c5c5; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+/*
+/* Reset básico */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(0, 100, 255, 0.9);
+    margin: 0 4em;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6c5c5;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Texto */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
